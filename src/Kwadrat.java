@@ -6,5 +6,8 @@ public class Kwadrat extends Prostokat {
 		setRodzaj("kwadrat");
 	}
 
-	
+	@Override
+	public String toString() {
+		return "Rodzaj:"+getRodzaj()+", bok="+ getSzer()+", Obw="+getObw()+", Pole="+getPole();
+	}
 }

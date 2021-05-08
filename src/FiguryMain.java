@@ -13,7 +13,7 @@ public class FiguryMain {
 		lista.add(new Kolo(4));
 		
 		for(Figura p: lista)
-			System.out.println("Rodzaj:"+p.getRodzaj()+", Obw="+p.getObw()+", Pole="+p.getPole());
+			System.out.println(p.toString());
 	}
 
 }

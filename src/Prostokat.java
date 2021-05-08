@@ -29,6 +29,10 @@ public class Prostokat extends Figura{
 		return 2*(wys+szer);
 	}
 	
-	
+	@Override
+	public String toString() {
+		return "Rodzaj:"+getRodzaj()+", szer="+getSzer()+", wys="+getWys()+", Obw="
+	+getObw()+", Pole="+getPole();
+	}
 
 }

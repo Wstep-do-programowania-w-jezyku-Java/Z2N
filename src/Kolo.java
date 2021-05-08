@@ -18,5 +18,10 @@ public class Kolo extends Figura {
 		// TODO Auto-generated method stub
 		return 2*Math.PI*r;
 	}
+	
+	@Override
+	public String toString() {
+		return "Rodzaj:"+getRodzaj()+", r="+r+", Obw="+getObw()+", Pole="+getPole();
+	}
 
 }
